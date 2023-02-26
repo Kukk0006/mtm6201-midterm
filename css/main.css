@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* =========== My Styles =============*/
+/* Colors 
+707070
+C9d8d1
+3c494a
+ffe032
+68ad8e
+170c11
+00a5d5
+-----AI file Colors---
+fce64c-yellow Main
+4c5b5c - Dark green Main
+200c14 - nearly black
+74baa0 light green accent1
+00b2dc blue accent2
+Fonts - Quicksand Eras*/
+:root{
+	--yellow-main-color:#fce64c;
+	--green-main-color:#4c5b5c;
+	--black-copy-color: #200c14;
+	--green-accent-color: #74baa0;
+	--blue-accent-color: #00b2dc;
+
+}
+/* SVG icon colors */
+.cls-1{
+	fill:#fbe54c;fill-rule:evenodd;}
+.cls-2{
+	fill:#4c5b5c;}
+.cls-3{
+	fill:#74baa0;}
+body{
+	font-family: Quicksand, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.2rem;
+	color: var(--yellow-main-color);
+}
+.container{
+	background-color: var(--green-main-color);
+	margin: 0 auto;
+}
+img{
+	width: 100%;
+}
+h1, h2, h3{
+	font-family: Exo, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+h1{
+	font-weight: 800;
+	font-style: italic;
+	font-size: 2.5rem;
+	padding: 1rem;
+	line-height: 3rem;
+	color: var(--green-accent-color);
+	-webkit-text-stroke: 2.5px var(--yellow-main-color);
+}
+h2{
+	font-size: 2rem;
+	font-weight: bolder;
+	line-height: 1.2em;
+	padding: 0.75rem;
+	}
+h3{
+	font-size: 1.5rem;
+	font-weight: bold;
+	line-height: 2em;
+	padding: 0.75rem;
+}
+p{
+	margin:1em 0 1em 0;
+}
+button{
+	font-family: Exo, Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+	background-color: var(--green-main-color);
+	color: var(--yellow-main-color);
+	padding: 0.5em 1em;
+	border-radius: 15px;
+	box-shadow: 10px 5px 10px var(--black-copy-color);
+}
+.skiplinks{
+	background-color: white;
+}
+.nav-banner{
+	background-image: url(/images/banner_net_760_570.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+nav{
+	font-family: Exo;
+}
+nav ul{
+	background-color: var(--green-accent-color);
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+nav ul li{
+	align-self: center;
+}
+nav a:link,
+nav a:visited{
+	color: var(--yellow-main-color);
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+  flex-grow: 1;
+	flex-shrink: 1;
+	display: block;
+	padding: 1rem 2rem;
+}
+nav a:hover{
+	background-color: var(--green-main-color);
+}
+.banner{
+	background-image: url(/images/kids_playing-760_x_506.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:0 10px;
+}
+.banner h3{
+	color: var(--black-copy-color);
+}
+.details{
+	margin: 0 0.75rem;
+	padding: 0 0.75rem 1rem;
+}
+.details h2{
+	font-size: 2.5em;
+}
+.call-to-action{
+	background-image: url(/images/hockey-stop-760_x_425.png);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+#basics{
+	margin: 0 0.75rem;
+	padding: 0 0.75rem 1rem;
+}
+.contact{
+	font-weight: 600;
+}
+footer{
+	background-color: var(--yellow-main-color);
+	display: grid;
+	grid-template-columns: 1.25fr .75fr 1fr;
+	grid-template-rows: 1fr;
+}
+footer li{
+	color: var(--black-copy-color);
+}
+.logo-footer{
+	grid-column: 1;
+	grid-row: 1;
+}
+.sm-footer{
+	grid-column: 2;
+	grid-row: 1;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+.sm-footer:nth-child(1){
+	grid-column: 1;
+	grid-row: 1;
+}
+.sm-footer:nth-child(2){
+	grid-column: 2;
+	grid-row: 1;
+}
+.sm-footer:nth-child(3){
+	grid-column: 1;
+	grid-row: 2;
+}
+.sm-footer:nth-child(4){
+	grid-column: 2;
+	grid-row: 2;
+}
+.contact-footer{
+	grid-column: 3;
+	grid-row:1;
+}
+/*===============  Mobile  =============*/
+
+
+/* ==============  Tablet  =============*/
+
+
+
+/* ==============  Desktop  =================*/

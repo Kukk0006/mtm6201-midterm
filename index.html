@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,600;1,700&family=Quicksand:wght@400;600&family=Work+Sans:ital@0;1&display=swap"
+    rel="stylesheet">
+  <title>Home</title>
+</head>
+
+<body>
+  <div id="top" class="container" role="banner">
+    <header>
+      <ul class="skiplinks">
+        <li><a href="#main">Skip to Main Content</a></li>
+        <li><a href="#basics">Skip to Get Your Basics</a></li>
+        <li><a href="#footer">Skip to footer</a></li>
+      </ul>
+      <div class="main-nav">
+        <div class="nav-banner">
+          <a class="logo" href="index.html"><img src="images/icons/logo.svg" alt="Envro Logo"> </a>
+          <!-- Logo outside ul to have separate background-->
+        </div><!--END nav-banner-->
+        <nav>
+          <ul>
+            <li><a href="index.html" id="active">HOME</a></li>
+            <li><a href="store.html">STORE</a></li>
+            <li><a href="gearlist.html">GEAR LIST</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+          </ul>
+        </nav>
+      </div><!--End Main Nav-->
+    </header>
+  </div> <!---End Container,Top,Banner-->
+  <div id="main" class="container">
+    <main class="main-content">
+      <h1>BLACK FRIDAY SALE</h1>
+      <div class="banner">
+        <h3>Get Playing <br> Today</h3>
+      </div><!--End Banner-->
+      <div class="details">
+        <h2>Free Shipping on all local orders</h2>
+        <h3>November 24th - November 28th</h3>
+      </div><!--END details-->
+      <div class="call-to-action">
+        <button type="button" onclick="window.location.href='store.html'">SHOP NOW</button>
+      </div><!--END call-to-action-->
+      <div id="basics" class="container">
+        <h3>Get Your Basics</h3>
+        <img src="images/back_net_760_570.jpg" alt="corner of hockey net">
+        <ul>
+          <li>Looking to start playing hockey?</li>
+          <li>Want to join a team?</li>
+          <li>Don't know the gear you need?</li>
+        </ul>
+        <p> We're here to help. Follow <a href="gearlist.html">this guide </a>to get all the pieces that you need to play safely without breaking the bank.</p>
+        <p>If you have any questions or need help finding the right fit for your child you can reach us at:</p>
+        <div class="contact" aria-label="contact information" itemscope itemtype="https://schema.org/LocalBusiness">
+          <span itemprop="email">Support@EnvroGear.ca 24/7</span><br>
+          <span>or</span><br>
+          <span itemprop="telephone">123-456-7890</span><br>
+          <span itemprop="openingHours" content="Mo-Fr 09:00-17:00">Monday - Friday 9am - 5pm</span> <br>
+          <span itemprop="openingHours" content="Sa,Su 10:00-13:00">Saturday & Sunday 10am - 3pm</span><br>
+          <!-- Used span to add schema easier based on schema.org example-->
+        </div><!---End Schema Contact-->
+      </div> <!--End Container-->
+    </main>
+  </div><!--END Container-->
+  <div class="container">
+    <footer>
+      <!--3 colum grid?-->
+      <img class="logo-footer" src="images/icons/logo.png" alt="Envro Logo">
+      <div class="sm-footer">
+        <!-- social media icons-->
+        <img src="images/icons/instagram-icon.svg" alt="instagram icon">
+        <img src="images/icons/facbook-icon.svg" alt="facebook icon">
+        <img src="images/icons/youtube-icon.svg" alt="youtube icon">
+        <img src="images/icons/map-icon.svg" alt="map icon">
+      </div><!--END sm-footer-->
+      <div class="contact-footer">
+        <ul>
+          <li>Contact Us</li>
+          <li>123-456-7890</li>
+          <li>emailname@envro.com</li>
+        </ul>
+      </div><!--END contact-footer-->
+    </footer>
+  </div><!--END Container-->
+</body>
+
+</html>
