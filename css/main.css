@@ -115,6 +115,12 @@ h3{
 	line-height: 2em;
 	padding: 0.75rem;
 }
+a:link,
+a:visited{
+color: var(--blue-accent-color);
+text-decoration: none;
+font-weight: 600;
+}
 p{
 	margin:1em 0 1em 0;
 }
@@ -151,7 +157,7 @@ nav ul li{
 }
 nav a:link,
 nav a:visited{
-	color: var(--yellow-main-color);
+	color: var(--black-copy-color);
 	font-size: 1.2em;
 	font-weight: bold;
 	text-decoration: none;
