@@ -64,7 +64,7 @@ fce64c-yellow Main
 Fonts - Quicksand Eras*/
 :root{
 	--yellow-main-color:#fce64c;
-	--green-main-color:#4c5b5c;
+	--green-main-color:#3f494a;
 	--black-copy-color: #200c14;
 	--green-accent-color: #74baa0;
 	--blue-accent-color: #00b2dc;
@@ -117,7 +117,7 @@ h3{
 }
 a:link,
 a:visited{
-color: var(--blue-accent-color);
+color: #A8EFFF;
 text-decoration: none;
 font-weight: 600;
 }
@@ -137,8 +137,11 @@ button{
 .skiplinks{
 	background-color: white;
 }
+.skiplinks li a{
+	color: var(--black-copy-color);
+}
 .nav-banner{
-	background-image: url(/images/banner_net_760_570.jpg);
+	background-image: url(../images/banner_net_760_570.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -170,14 +173,16 @@ nav a:hover{
 	background-color: var(--green-main-color);
 }
 .banner{
-	background-image: url(/images/kids_playing-760_x_506.jpg);
+	background-image: url(../images/kids_playing-760_x_506.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin:0 10px;
 }
-.banner h3{
+.banner p{
 	color: var(--black-copy-color);
+	font-weight: 600;
+	text-align: right;
 }
 .details{
 	margin: 0 0.75rem;
@@ -187,7 +192,7 @@ nav a:hover{
 	font-size: 2.5em;
 }
 .call-to-action{
-	background-image: url(/images/hockey-stop-760_x_425.png);
+	background-image: url(../images/hockey-stop-760_x_425.png);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
