@@ -445,6 +445,60 @@ footer li {
 .soon {
   padding-bottom: 3em;
 }
+
+/*---------------------Store-----------------*/
+#shop {
+  height: 800px;
+  overflow: auto;
+}
+#shop .pro {
+  max-width: 50%;
+  margin: 1em auto;
+  border: 1px solid var(--yellow-main-color);
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  transition: 0.2s ease;
+  background-color: var(--light-blue-background);
+  position: relative;
+}
+#shop .pr:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+#shop .pro img {
+  width: 100%;
+  border-radius: 20px;
+}
+#shop .pro .des {
+  text-align: start;
+  padding: 10px;
+}
+#shop .pro .des span {
+  color: var(--green-main-color);
+  font-size: 14px;
+  position: absolute;
+  right: 10px;
+  bottom: 50px;
+}
+#shop .pro .des h5 {
+  padding-top: 7px;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--black-copy-color);
+}
+#shop .pro .des h4 {
+  padding-top: 7px;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--black-copy-color);
+}
+#shop .pro .des button {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  max-width: 100px;
+  font-size: 12px;
+}
 /* ==============  Tablet 760 to 1199px =============*/
 @media screen and (min-width: 760px) {
   .container {
@@ -533,54 +587,16 @@ footer li {
 
   /*------------- Gear ⚙ -----------------*/
   /*-----------Shop-----------*/
+
+  #shop .pro-container {
+    max-height: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
   #shop .pro {
-    width: 23%;
-    min-width: 250px;
+    max-width: 250px;
     padding: 10px 12px;
-    border: 1px solid var(--yellow-main-color);
-    border-radius: 25px;
-    cursor: pointer;
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-    margin: 15px;
-    transition: 0.2s ease;
-    background-color: var(--light-blue-background);
-    position: relative;
-  }
-  #shop .pr:hover {
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
-  }
-  #shop .pro img {
-    width: 100%;
-    border-radius: 20px;
-  }
-  #shop .pro .des {
-    text-align: start;
-    padding: 10px;
-  }
-  #shop .pro .des span {
-    color: var(--green-main-color);
-    font-size: 14px;
-    position: absolute;
-    right: 10px;
-    bottom: 50px;
-  }
-  #shop .pro .des h5 {
-    padding-top: 7px;
-    font-size: 18px;
-    font-weight: bold;
-    color: var(--black-copy-color);
-  }
-  #shop .pro .des h4 {
-    padding-top: 7px;
-    font-size: 14px;
-    font-weight: bold;
-    color: var(--black-copy-color);
-  }
-  #shop .pro .des button {
-    position: absolute;
-    bottom: 15px;
-    right: 10px;
-    max-width: 100px;
-    font-size: 12px;
   }
 }
