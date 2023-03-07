@@ -1,38 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,600;1,700&family=Quicksand:wght@400;600&family=Work+Sans:ital@0;1&display=swap" rel="stylesheet">
-  <title>Shop</title>
-</head>
-<body>
-  <div id="top" class="container" role="banner">
-    <header>
-      <ul class="skiplinks">
-        <li><a href="#main">Skip to Main Content</a></li>
-        <li><a href="#basics">Skip to Get Your Basics</a></li>
-        <li><a href="#footer">Skip to footer</a></li>
-      </ul>
-      <div class="main-nav">
-        <div class="nav-banner">
-          <a class="logo" href="index.html"><img src="images/icons/logo.svg" alt="Envro Logo"> </a>
-          <!-- Logo outside ul to have separate background-->
-        </div><!--END nav-banner-->
-        <nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,600;1,700&family=Quicksand:wght@400;600&family=Work+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shop</title>
+  </head>
+  <body>
+    <div id="top" class="container" role="banner">
+      <header>
+        <ul class="skiplinks">
+          <li><a href="#main">Skip to Main Content</a></li>
+          <li><a href="#basics">Skip to Get Your Basics</a></li>
+          <li><a href="#footer">Skip to footer</a></li>
+        </ul>
+        <div class="main-nav">
+          <div class="nav-banner">
+            <a class="logo" href="index.html"
+              ><img src="images/icons/logo.svg" alt="Envro Logo" />
+            </a>
+            <!-- Logo outside ul to have separate background-->
+          </div>
+          <!--END nav-banner-->
+          <nav>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="#" id="active">STORE</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><img src="images/icons/logo.svg" alt="logo" /></li>
+            </ul>
+          </nav>
+        </div>
+        <!--End Main Nav-->
+      </header>
+    </div>
+    <!---End Container,Top,Banner-->
+    <div class="container">
+      <div id="shop">
+      <h1>Shop</h1>
+      <div class="pro-container">
+        <div class="pro">
+          <img
+            src="images/products/hockey-stick-147984_640 (1).png"
+            alt="hockey stick"
+          />
+          <div class="des">
+            <h5>Hockey Stick</h5>
+            <span>Fiberglass Jr Size</span>
+            <h4>$50.00</h4>
+            <button>Add to Cart</button>
+          </div>
+          <!--end des-->
+          
+        </div>
+        <!--End pro-->
+      </div>
+      <!--end pro-container-->
+    </div>
+    <!--end contianer-->
+    <div class="container">
+      <footer id="footer">
+        <!--3 colum grid?-->
+        <img class="logo-footer" src="images/icons/logo.svg" alt="Envro Logo" />
+        <div class="sm-footer">
+          <!-- social media icons-->
+          <img src="images/icons/iconsInstagram.png" alt="instagram icon" />
+          <img src="images/icons/iconsFacebook.png" alt="facebook icon" />
+          <img src="images/icons/iconsYoutube.png" alt="youtube icon" />
+          <img src="images/icons/iconsMap.png" alt="map icon" />
+        </div>
+        <!--END sm-footer-->
+        <div class="contact-footer">
           <ul>
-            <li><a href="index.html" >HOME</a></li>
-            <li><a href="#" id="active">STORE</a></li>
-            <li><a href="about.html">ABOUT</a></li>
+            <li>Contact Us</li>
+            <li>123-456-7890</li>
+            <li>emailname@envro.com</li>
           </ul>
-        </nav>
-      </div><!--End Main Nav-->
-    </header>
-  </div> <!---End Container,Top,Banner-->
-  
-</body>
+        </div>
+        <!--END contact-footer-->
+      </footer>
+    </div>
+    <!--END Container-->
+  </body>
 </html>
