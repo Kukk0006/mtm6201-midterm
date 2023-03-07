@@ -143,6 +143,7 @@ fce64c-yellow Main
 74baa0 light green accent1
 00b2dc blue accent2
 Fonts - Quicksand Eras*/
+
 :root {
   --yellow-main-color: #fce64c;
   --green-main-color: #3f494a;
@@ -561,6 +562,9 @@ footer li {
   .basics-container img {
     max-width: 50%;
     margin-bottom: 1em;
+  }
+  .basics-content {
+    padding-right: 1em;
   }
   #basics {
     padding: 0;
