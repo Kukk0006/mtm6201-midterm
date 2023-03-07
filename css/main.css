@@ -280,7 +280,7 @@ nav a:visited {
   padding: 1rem 2rem;
 }
 nav a:hover {
-  background-color: var(--green-main-color);
+  background-color: var(--yellow-main-color);
 }
 footer {
   background-color: var(--yellow-main-color);
