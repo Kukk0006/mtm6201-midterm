@@ -24,9 +24,7 @@
         </ul>
         <div class="main-nav">
           <div class="nav-banner">
-            <a class="logo" href="index.html"
-              ><img src="images/icons/logo.svg" alt="Envro Logo" />
-            </a>
+            <img src="images/icons/logo.svg" alt="Envro Logo" />
             <!-- Logo outside ul to have separate background-->
           </div>
           <!--END nav-banner-->
@@ -36,9 +34,11 @@
               <li><a href="store.html">STORE</a></li>
               <li><a href="about.html">ABOUT</a></li>
               <li>
-                <a href="index.html"
-                  ><img src="images/icons/logo.svg" alt="logo"
-                /></a>
+                <img
+                  src="images/icons/logo.svg"
+                  alt="logo"
+                  aria-hidden="true"
+                />
               </li>
             </ul>
           </nav>
@@ -75,6 +75,9 @@
               <img
                 src="images/back_net_760_570.jpg"
                 alt="corner of hockey net"
+                srcset="images/back_net_760_570.jpg 760w, images/back_net_1440_1080.jpg 1080w"
+                sizes="(max-width: 760px) 760w,
+                (max-width:1200px) 1440px"
               />
               <div class="basics-content">
                 <ul>
@@ -91,13 +94,12 @@
                   If you have any questions or need help finding the right fit
                   for your child you can reach us at:
                 </p>
-                <div
-                  class="contact"
+                <div class="contact"
                   aria-label="contact information"
                   itemscope
                   itemtype="https://schema.org/LocalBusiness"
                 >
-                  <span itemprop="email">Support@EnvroGear.ca 24/7</span><br />
+                  <span itemprop="email">Support@EnvroGear.ca</span><br />
                   <span>or</span><br />
                   <span itemprop="telephone">123-456-7890</span><br />
                   <span itemprop="openingHours" content="Mo-Fr 09:00-17:00"
@@ -127,10 +129,22 @@
         <img class="logo-footer" src="images/icons/logo.svg" alt="Envro Logo" />
         <div class="sm-footer">
           <!-- social media icons-->
-          <img src="images/icons/iconsInstagram.png" alt="instagram icon" />
-          <img src="images/icons/iconsFacebook.png" alt="facebook icon" />
-          <img src="images/icons/iconsYoutube.png" alt="youtube icon" />
-          <img src="images/icons/iconsMap.png" alt="map icon" />
+          <div class="sm-icon">
+            <img src="images/icons/iconsInstagram.png" alt="instagram icon" />
+            <h6 class="sm-titles">Instagram</h6>
+          </div>
+          <div class="sm-icon">
+            <img src="images/icons/iconsFacebook.png" alt="facebook icon" />
+            <h6 class="sm-titles">Facebook</h6>
+          </div>
+          <div class="sm-icon">
+            <img src="images/icons/iconsYoutube.png" alt="youtube icon" />
+            <h6 class="sm-titles">YouTube</h6>
+          </div>
+          <div class="sm-icon">
+            <img src="images/icons/iconsMap.png" alt="map icon" />
+            <h6 class="sm-titles">Instagram</h6>
+          </div>
         </div>
         <!--END sm-footer-->
         <div class="contact-footer">

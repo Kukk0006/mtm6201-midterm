@@ -29,3 +29,10 @@ Feb 26
 9:30 - 11:22 (2 hr distracable)
 more css done very close to mock-up
 \*need to look into SVG more
+Worked but didnt log
+Feb 28, Mar 1, 2 6, 7th est 8hrs
+March 8
+11:30 -12:50
+modify colors, worked on footer, added some aria
+1:30
+
