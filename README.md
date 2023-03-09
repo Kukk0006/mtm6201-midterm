@@ -34,5 +34,6 @@ Feb 28, Mar 1, 2 6, 7th est 8hrs
 March 8
 11:30 -12:50
 modify colors, worked on footer, added some aria
-1:30
+1:30-2:42
+store imgs, src sets, footer schema
 
