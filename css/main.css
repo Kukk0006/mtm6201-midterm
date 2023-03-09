@@ -289,22 +289,25 @@ nav a:hover {
 nav #active {
   color: var(--green-main-color);
 }
-footer {
+footer{
+  color: var(--black-copy-color);
   background-color: var(--yellow-main-color);
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+}
+footer .footer-grid-wrapper {
   display: grid;
   grid-template-columns: 1.25fr 0.75fr 1fr;
   grid-template-rows: 1fr;
-  padding-bottom: 1em;
 }
-footer li {
-  color: var(--black-copy-color);
-}
+
 .logo-footer {
   grid-column: 1;
   grid-row: 1;
   height: 4em;
   justify-self: center;
   align-self: center;
+  margin-left: 0.5em;
 }
 .sm-footer {
   grid-column: 2;
@@ -314,7 +317,7 @@ footer li {
   grid-template-rows: 1fr 1fr;
 }
 .sm-footer img {
-  max-width: 2em;
+  max-width: 1.5em;
   padding: 0.75em;
 }
 .sm-footer:nth-child(1) {
@@ -342,7 +345,8 @@ footer li {
   align-self: center;
 }
 .contact-footer {
-   font-weight: bold;
+  font-weight: bold;
+  font-size: 0.75em;
   grid-column: 3;
   grid-row: 1;
   justify-self: center;
@@ -351,10 +355,17 @@ footer li {
 #footer .sm-titles {
   display: none;
 }
+footer .copywrite{
+  font-size: 0.75em;
+}
+footer .copywrite a{
+  color:var(--black-copy-color);
+  font-weight: 400;
+}
 /* ------------ Home 🏡 ---------------------*/
 .banner {
   background-image: url(../images/kids_playing-760_x_506.jpg);
-  background-position: 0px -150px; /*  x y &*/
+  background-position: 0px -100px; /*  x y &*/
   background-size: cover;
   background-repeat: no-repeat;
   display: block;
