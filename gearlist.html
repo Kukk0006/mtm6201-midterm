@@ -14,6 +14,7 @@
     <title>Gear List</title>
   </head>
   <body>
+    <!-- Standard nav with skip links -->
     <div id="top" class="container" role="banner">
       <header>
         <ul class="skiplinks">
@@ -42,6 +43,7 @@
     </div><!---End Container,Top,Banner-->
     <div class="container">
       <main>
+        <!-- Basic list of items with id for skip links -->
         <div id="avaiable" class="available">
           <h1>Hockey Gear</h1>
           <p>A comprehensive list of gear needed for hockey</p>
@@ -61,6 +63,7 @@
             <li>Hockey Stick</li>
           </ul>
         </div><!--END available-->
+        <!-- Basic list of items with id for skip links-->
         <div id="soon" class="soon">
           <h2>Coming Soon</h2>
           <ul>
@@ -80,12 +83,14 @@
       </main>
     </div><!--END Container-->
     <div class="container">
+      <!-- basic footer -->
       <footer id="footer">
+        <!-- grid wrapper to be able to target children -->
         <div class="footer-grid-wrapper">
-        <!--3 colum grid?-->
+        <!--3 colum grid -->
         <img class="logo-footer" src="images/icons/logo.svg" alt="Envro Logo" />
         <div class="sm-footer">
-          <!-- social media icons-->
+          <!-- social media icons and titles/text-->
           <div class="sm-icon">
             <img src="images/icons/iconsInstagram.png" alt="instagram icon" />
             <h6 class="sm-titles">Instagram</h6>
@@ -104,10 +109,12 @@
           </div>
         </div><!--END sm-footer-->
         <div class="contact-footer">
-          <ul>
+          <!-- schema for SEO added -->
+          <ul itemscope
+          itemtype="https://schema.org/LocalBusiness">
             <li>Contact Us</li>
-            <li>123-456-7890</li>
-            <li>emailname@envro.com</li>
+            <li itemprop="telephone">123-456-7890</li>
+            <li itemprop="email">emailname@envro.com</li>
           </ul>
         </div><!--END contact-footer-->
       </div><!--End footer-grid-wrapper-->

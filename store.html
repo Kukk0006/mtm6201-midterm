@@ -1,64 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,600;1,700&family=Quicksand:wght@400;600&family=Work+Sans:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
-    <title>Shop</title>
-  </head>
-  <body>
-    <div id="top" class="container" role="banner">
-      <header>
-        <ul class="skiplinks">
-          <li><a href="#shop">Skip to Store</a></li>
-          <li><a href="#cart">Skip to Cart</a></li>
-          <li><a href="#footer">Skip to Footer</a></li>
-        </ul>
-        <div class="main-nav">
-          <div class="nav-banner">
-            <img
-              src="images/icons/logo.png"
-              alt="Envro Logo"
-              aria-hidden="true"
-            /><!-- Logo outside ul to have separate background-->
-          </div>
-          <!--END nav-banner-->
-          <nav>
-            <ul>
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="store.html" id="active">STORE</a></li>
-              <li><a href="about.html">ABOUT</a></li>
-              <li>
-                <img
-                  src="images/icons/logo.png"
-                  alt="logo"
-                  aria-hidden="true"
-                />
-              </li>
-            </ul>
-          </nav>
-        </div><!--End Main Nav-->
-      </header>
-    </div><!---End Container,Top,Banner-->
-    <div class="container">
-      <h1>Store</h1>
-      <div class="shop-flex-container">
-        <div id="shop">
-          <div class="pro-container">
-           <div class="pro">
-            <img
-              src="images/products/hockey-stick-280x350.jpg"
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,600;1,700&family=Quicksand:wght@400;600&family=Work+Sans:ital@0;1&display=swap"
+    rel="stylesheet" />
+  <title>Shop</title>
+</head>
+
+<body>
+  <div id="top" class="container" role="banner">
+    <header>
+      <!-- Standard nav with skip links -->
+      <ul class="skiplinks">
+        <li><a href="#shop">Skip to Store</a></li>
+        <li><a href="#cart">Skip to Cart</a></li>
+        <li><a href="#footer">Skip to Footer</a></li>
+      </ul>
+      <div class="main-nav">
+        <div class="nav-banner">
+          <img src="images/icons/logo.png" alt="Envro Logo"
+            aria-hidden="true" /><!-- Logo outside ul to have separate background-->
+        </div>
+        <!--END nav-banner-->
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="store.html" id="active">STORE</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li>
+              <img src="images/icons/logo.png" alt="logo" aria-hidden="true" />
+            </li>
+          </ul>
+        </nav>
+      </div><!--End Main Nav-->
+    </header>
+  </div><!---End Container,Top,Banner-->
+  <div class="container">
+    <h1>Store</h1>
+    <!--a wrapper/container to add flex to the items inside -->
+    <div class="shop-flex-container">
+      <div id="shop">
+        <!-- to flex the items in the store -->
+        <div class="pro-container">
+          <!-- the div that wraps the product to make cards -->
+          <div class="pro">
+            <img src="images/products/hockey-stick-280x350.jpg"
               srcset="images/products/hockey-stick-280x350.jpg 280w, images/products/hockey-stick-560x700.jpg 560w"
-              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px"
-              alt="hockey stick"
-            >
+              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px" alt="hockey stick">
+            <!-- the div for the item description -->
             <div class="des">
               <h5>Hockey Stick</h5>
               <span>Fiberglass Jr Size</span>
@@ -66,13 +62,12 @@
               <button aria-label="add to cart">Add to Cart</button>
             </div><!--end des-->
           </div><!--End pro-->
+          <!-- the div that wraps the product to make cards -->
           <div class="pro">
-            <img
-              src="images/products/hockey-puckst-280x350.jpg"
+            <img src="images/products/hockey-puckst-280x350.jpg"
               srcset="images/products/hockey-puckst-280x350.jpg 280w, images/products/hockey-puckst-560x700.jpg 560w"
-              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px"
-              alt="hockey pucks"
-            >
+              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px" alt="hockey pucks">
+            <!-- the div for the item description -->
             <div class="des">
               <h5>Hockey Pucks</h5>
               <span>3 pack</span>
@@ -80,13 +75,12 @@
               <button aria-label="add to cart">Add to Cart</button>
             </div><!--end des-->
           </div><!--End pro-->
+          <!-- the div that wraps the product to make cards -->
           <div class="pro">
-            <img
-              src="images/products/hockey-skates-280x350.jpg"
+            <img src="images/products/hockey-skates-280x350.jpg"
               srcset="images/products/hockey-skates-280x350.jpg 280w, images/products/hockey-skatest-560x700.jpg 560w"
-              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px"
-              alt="hockey skates"
-            >
+              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px" alt="hockey skates">
+            <!-- the div for the item description -->
             <div class="des">
               <h5>Skates</h5>
               <span>Jr Sizes</span>
@@ -94,13 +88,12 @@
               <button aria-label="add to cart">Add to Cart</button>
             </div><!--end des-->
           </div><!--End pro-->
+          <!-- the div that wraps the product to make cards -->
           <div class="pro">
-            <img
-              src="images/products/hockey-helmet-280x350.jpg"
+            <img src="images/products/hockey-helmet-280x350.jpg"
               srcset="images/products/hockey-helmet-280x350.jpg 280w, images/products/hockey-helmet-560x700.jpg 560w"
-              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px"
-              alt="hockey helmet"
-            >
+              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px" alt="hockey helmet">
+            <!-- the div for the item description -->
             <div class="des">
               <h5>Hockey Helmet</h5>
               <span>Youth Size</span>
@@ -108,13 +101,12 @@
               <button aria-label="add to cart">Add to Cart</button>
             </div><!--end des-->
           </div><!--End pro-->
+          <!-- the div that wraps the product to make cards -->
           <div class="pro">
-            <img
-              src="images/products/hockey-stick-280x350.jpg"
+            <img src="images/products/hockey-stick-280x350.jpg"
               srcset="images/products/hockey-stick-280x350.jpg 280w, images/products/hockey-stick-560x700.jpg 560w"
-              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px"
-              alt="hockey stick"
-            >
+              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px" alt="hockey stick">
+            <!-- the div for the item description -->
             <div class="des">
               <h5>Hockey Stick</h5>
               <span>Fiberglass Jr Size</span>
@@ -122,13 +114,12 @@
               <button aria-label="add to cart">Add to Cart</button>
             </div><!--end des-->
           </div><!--End pro-->
+          <!-- the div that wraps the product to make cards -->
           <div class="pro">
-            <img
-              src="images/products/hockey-puckst-280x350.jpg"
+            <img src="images/products/hockey-puckst-280x350.jpg"
               srcset="images/products/hockey-puckst-280x350.jpg 280w, images/products/hockey-puckst-560x700.jpg 560w"
-              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px"
-              alt="hockey pucks"
-            >
+              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px" alt="hockey pucks">
+            <!-- the div for the item description -->
             <div class="des">
               <h5>Hockey Pucks</h5>
               <span>3 pack</span>
@@ -136,13 +127,12 @@
               <button aria-label="add to cart">Add to Cart</button>
             </div><!--end des-->
           </div><!--End pro-->
+          <!-- the div that wraps the product to make cards -->
           <div class="pro">
-            <img
-              src="images/products/hockey-skates-280x350.jpg"
+            <img src="images/products/hockey-skates-280x350.jpg"
               srcset="images/products/hockey-skates-280x350.jpg 280w, images/products/hockey-skatest-560x700.jpg 560w"
-              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px"
-              alt="hockey skates"
-            >
+              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px" alt="hockey skates">
+            <!-- the div for the item description -->
             <div class="des">
               <h5>Skates</h5>
               <span>Jr Sizes</span>
@@ -150,13 +140,12 @@
               <button aria-label="add to cart">Add to Cart</button>
             </div><!--end des-->
           </div><!--End pro-->
+          <!-- the div that wraps the product to make cards -->
           <div class="pro">
-            <img
-              src="images/products/hockey-helmet-280x350.jpg"
+            <img src="images/products/hockey-helmet-280x350.jpg"
               srcset="images/products/hockey-helmet-280x350.jpg 280w, images/products/hockey-helmet-560x700.jpg 560w"
-              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px"
-              alt="hockey helmet"
-            >
+              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px" alt="hockey helmet">
+            <!-- the div for the item description -->
             <div class="des">
               <h5>Hockey Helmet</h5>
               <span>Youth Size</span>
@@ -164,13 +153,12 @@
               <button aria-label="add to cart">Add to Cart</button>
             </div><!--end des-->
           </div><!--End pro-->
+          <!-- the div that wraps the product to make cards -->
           <div class="pro">
-            <img
-              src="images/products/hockey-stick-280x350.jpg"
+            <img src="images/products/hockey-stick-280x350.jpg"
               srcset="images/products/hockey-stick-280x350.jpg 280w, images/products/hockey-stick-560x700.jpg 560w"
-              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px"
-              alt="hockey stick"
-            >
+              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px" alt="hockey stick">
+            <!-- the div for the item description -->
             <div class="des">
               <h5>Hockey Stick</h5>
               <span>Fiberglass Jr Size</span>
@@ -178,13 +166,12 @@
               <button aria-label="add to cart">Add to Cart</button>
             </div><!--end des-->
           </div><!--End pro-->
+          <!-- the div that wraps the product to make cards -->
           <div class="pro">
-            <img
-              src="images/products/hockey-puckst-280x350.jpg"
+            <img src="images/products/hockey-puckst-280x350.jpg"
               srcset="images/products/hockey-puckst-280x350.jpg 280w, images/products/hockey-puckst-560x700.jpg 560w"
-              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px"
-              alt="hockey pucks"
-            >
+              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px" alt="hockey pucks">
+            <!-- the div for the item description -->
             <div class="des">
               <h5>Hockey Pucks</h5>
               <span>3 pack</span>
@@ -192,13 +179,12 @@
               <button aria-label="add to cart">Add to Cart</button>
             </div><!--end des-->
           </div><!--End pro-->
+          <!-- the div that wraps the product to make cards -->
           <div class="pro">
-            <img
-              src="images/products/hockey-skates-280x350.jpg"
+            <img src="images/products/hockey-skates-280x350.jpg"
               srcset="images/products/hockey-skates-280x350.jpg 280w, images/products/hockey-skatest-560x700.jpg 560w"
-              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px"
-              alt="hockey skates"
-            >
+              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px" alt="hockey skates">
+            <!-- the div for the item description -->
             <div class="des">
               <h5>Skates</h5>
               <span>Jr Sizes</span>
@@ -206,13 +192,12 @@
               <button aria-label="add to cart">Add to Cart</button>
             </div><!--end des-->
           </div><!--End pro-->
+          <!-- the div that wraps the product to make cards -->
           <div class="pro">
-            <img
-              src="images/products/hockey-helmet-280x350.jpg"
+            <img src="images/products/hockey-helmet-280x350.jpg"
               srcset="images/products/hockey-helmet-280x350.jpg 280w, images/products/hockey-helmet-560x700.jpg 560w"
-              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px"
-              alt="hockey helmet"
-            >
+              sizes="(max-width: 760px) 280px, (max-width: 1200px) 560px" alt="hockey helmet">
+            <!-- the div for the item description -->
             <div class="des">
               <h5>Hockey Helmet</h5>
               <span>Youth Size</span>
@@ -222,10 +207,13 @@
           </div><!--End pro-->
         </div><!--end pro-container-->
       </div><!--End Shop-->
+      <!-- a div for the cart, on own for designing seperately -->
       <div class="cart">
         <h2>Cart</h2>
+        <!-- empty div, represents where the  list of items in the cart would be -->
         <div class="basket"></div>
         <!--End Basket-->
+        <!-- to be replaced with something that works with javascript -->
         <div class="total">
           <h3>$50.00</h3>
         </div>
@@ -233,15 +221,17 @@
       </div>
       <!--End Cart-->
     </div><!--End Shop-flex-container-->
-    </div>
-    <!--end container-->
-    <div class="container">
-      <footer id="footer">
-        <div class="footer-grid-wrapper">
-        <!--3 colum grid?-->
+  </div>
+  <!--end container-->
+  <div class="container">
+    <!-- basic footer -->
+    <footer id="footer">
+      <!-- grid wrapper to be able to target children -->
+      <div class="footer-grid-wrapper">
+        <!--3 colum grid -->
         <img class="logo-footer" src="images/icons/logo.svg" alt="Envro Logo" />
         <div class="sm-footer">
-          <!-- social media icons-->
+          <!-- social media icons and titles/text-->
           <div class="sm-icon">
             <img src="images/icons/iconsInstagram.png" alt="instagram icon" />
             <h6 class="sm-titles">Instagram</h6>
@@ -258,21 +248,21 @@
             <img src="images/icons/iconsMap.png" alt="map icon" />
             <h6 class="sm-titles">Instagram</h6>
           </div>
-        </div>
-        <!--END sm-footer-->
+        </div><!--END sm-footer-->
         <div class="contact-footer">
-          <ul>
+          <!-- schema for SEO added -->
+          <ul itemscope itemtype="https://schema.org/LocalBusiness">
             <li>Contact Us</li>
-            <li>123-456-7890</li>
-            <li>emailname@envro.com</li>
+            <li itemprop="telephone">123-456-7890</li>
+            <li itemprop="email">emailname@envro.com</li>
           </ul>
-        </div>
-        <!--END contact-footer-->
+        </div><!--END contact-footer-->
       </div><!--End footer-grid-wrapper-->
-        <span class="copywrite">Images are from Unsplash and Pixabay</span>
-      
-      </footer>
-    </div>
-    <!--END Container-->
-  </body>
+      <span class="copywrite">Images are from Unsplash and Pixabay</span>
+
+    </footer>
+  </div>
+  <!--END Container-->
+</body>
+
 </html>
