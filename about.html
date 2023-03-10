@@ -25,13 +25,12 @@
         <div class="main-nav">
           <div class="nav-banner">
             <img
-              src="images/icons/logo.svg"
+              src="images/icons/logo.png"
               alt="Envro Logo"
               aria-hidden="true"
             />
             <!-- Logo outside ul to have separate background-->
-          </div>
-          <!--END nav-banner-->
+          </div><!--END nav-banner-->
           <nav>
             <ul>
               <li><a href="index.html">HOME</a></li>
@@ -39,39 +38,41 @@
               <li><a href="#" id="active">ABOUT</a></li>
               <li>
                 <img
-                  src="images/icons/logo.svg"
+                  src="images/icons/logo.png"
                   alt="logo"
                   aria-hidden="true"
                 />
               </li>
             </ul>
           </nav>
-        </div>
-        <!--End Main Nav-->
+        </div><!--End Main Nav-->
       </header>
-    </div>
-    <!---End Container,Top,Banner-->
+    </div><!---End Container,Top,Banner-->
     <div class="container">
       <main>
         <h1>About</h1>
         <h2 id="mission">Our Mission</h2>
         <div class="mission">
           <img
-            src="images/boy_profile-760_x_300.jpg"
+            src="images/boy_profile-760x317.jpg"
             alt="profile image of young hockey player"
+            srcset="images/boy_profile-760x317.jpg 760w, images/boy_profile-1440x600.jpg 1440w"
+            sizes="(max-width: 760px) 760px,
+            (max-width:1200px) 1440px"
           />
-          <!--NEED TO MAKE SRCSET ❗ -->
           <p>
             “Envro Hockey Gear can have kids included who want to play hockey by
             making it affordable to get started”
           </p>
-        </div>
-        <!--END mission-->
+        </div><!--END mission-->
         <h2 id="story">Our Story</h2>
         <div class="story">
           <img
-            src="images/hockey_gear_bw-760_x_300.jpg"
-            alt="hockey gear in a backet"
+            src="images/hockey_gear_bw-760x317.jpg"
+            alt="hockey gear in a basket"
+            srcset="images/hockey_gear_bw-760x317.jpg 760w, images/hockey_gear_bw-1140x600.jpg 1440w"
+            sizes="(max-width: 760px) 760px,
+            (max-width:1200px) 1440px"
           />
           <p>
             Envro Hockey Gear has identified the need for sustainable and
@@ -81,60 +82,65 @@
             up fast, and needing to replace it due to wear or a child growing
             out of it can be a deterrent to starting in the first place.
           </p>
-        </div>
-        <!--END story-->
+        </div><!--END story-->
         <h2 id="team">Our Team</h2>
         <div class="team">
           <div class="team-card" itemscope itemtype="https://schema.org/Person">
             <img
-              src="images/david_george-760_x_506.jpg"
+              src="images/david_george-480x320.jpg"
               alt="David George Profile"
+              srcset="images/david_george-480x320.jpg 480w, images/david_george-960x640.jpg 960w"
+              sizes="(max-width: 760px) 480px,
+              (max-width:1200px) 960px"
             />
             <h3 itemprop="name">David George</h3>
             <h4 itemprop="jobTitle">Founder - Coach</h4>
-          </div>
-          <!--END team-card-->
+          </div><!--END team-card-->
           <div class="team-card" itemtype="https://schema.org/Person">
             <img
-              src="images/ercan_reyhan-760_x_1140.jpg"
+              src="images/ercan_reyhan-480x320.jpg"
               alt="Ecran Reyhan Profile"
+              srcset="images/ercan_reyhan-480x320.jpg 480w, images/ercan_reyhan-960x640.jpg 960w"
+              sizes="(max-width: 760px) 480px,
+              (max-width:1200px) 960px"
             />
             <h3 itemprop="name">Ecran Reyhan</h3>
             <h4 itemprop="jobTitle">Co-Founder - Player</h4>
-          </div>
-          <!--END team-card-->
+          </div><!--END team-card-->
           <div class="team-card" itemtype="https://schema.org/Person">
             <img
-              src="images/adalbert_reyes-760_x_506.jpg"
+              src="images/adalbert_reyes-480x320.jpg"
               alt="Adalber Reyes Profile"
+              srcset="images/adalbert_reyes-480x320.jpg 480w, images/adalbert_reyes-960x640.jpg 960w"
+              sizes="(max-width: 760px) 480px,
+              (max-width:1200px) 960px"
             />
             <h3 itemprop="name">Adalber (Al) Reyes</h3>
             <h4 itemprop="jobTitle">Web Dev - Grandpa</h4>
-          </div>
-          <!--END team-card-->
+          </div><!--END team-card-->
           <div class="team-card" itemtype="https://schema.org/Person">
             <img
-              src="images/jersey_palmer-506_x_760.jpg"
+              src="images/jersey_palmer-480x320jpg.jpg"
               alt="Jersey Palmer Profile"
+              srcset="images/jersey_palmer-480x320.jpg 480w, images/jersey_palmer-960x640.jpg 960w"
+              sizes="(max-width: 760px) 480px,
+              (max-width:1200px) 960px"
             />
             <h3 itemprop="name">Jersey Palmer</h3>
             <h4 itemprop="jobTitle">Orders - Hockey Mom</h4>
-          </div>
-          <!--END team-card-->
-        </div>
-        <!--END team-->
+          </div><!--END team-card-->
+        </div><!--END team-->
       </main>
-    </div>
-    <!--END container-->
+    </div><!--END container-->
     <div class="container">
       <footer id="footer">
         <div class="footer-grid-wrapper">
-        <!--3 colum grid?-->
-        <img class="logo-footer" src="images/icons/logo.svg" alt="Envro Logo" />
+        <!--3 colum grid -->
+        <img class="logo-footer" src="images/icons/logo.png" alt="Envro Logo" />
         <div class="sm-footer">
           <!-- social media icons-->
           <div class="sm-icon">
-            <img src="images/icons/iconsInstagram.png" alt="instagram icon" />
+            <img src="images/icons/iconsInstagram.svg" alt="instagram icon" />
             <h6 class="sm-titles">Instagram</h6>
           </div>
           <div class="sm-icon">
@@ -149,21 +155,17 @@
             <img src="images/icons/iconsMap.png" alt="map icon" />
             <h6 class="sm-titles">Instagram</h6>
           </div>
-        </div>
-        <!--END sm-footer-->
+        </div><!--END sm-footer-->
         <div class="contact-footer">
           <ul>
             <li>Contact Us</li>
             <li>123-456-7890</li>
             <li>emailname@envro.com</li>
           </ul>
-        </div>
-        <!--END contact-footer-->
+        </div><!--END contact-footer-->
       </div><!--End footer-grid-wrapper-->
         <span class="copywrite">Images are from Unsplash and Pixabay</span>
-      
       </footer>
-    </div>
-    <!--END Container-->
+    </div><!--END Container-->
   </body>
 </html>
