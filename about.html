@@ -82,39 +82,36 @@
           <img src="images/david_george-480x320.jpg" alt="David George Profile"
             srcset="images/david_george-480x320.jpg 480w, images/david_george-960x640.jpg 960w" sizes="(max-width: 760px) 480px,
               (max-width:1200px) 960px" />
-          <!-- schema for seo -->
+          <!-- schema for Google.....I understand that there is some nesting that needs to happen, but I am not sure on how to accomplish this in this situation without JS -->
           <h3 itemprop="name">David George</h3>
           <h4 itemprop="jobTitle">Founder - Coach</h4>
         </div><!--END team-card-->
         <!-- div to make cards -->
-        <div class="team-card" itemtype="https://schema.org/Person">
+        <div class="team-card">
           <!-- im src set for different displays -->
           <img src="images/ercan_reyhan-480x320.jpg" alt="Ecran Reyhan Profile"
             srcset="images/ercan_reyhan-480x320.jpg 480w, images/ercan_reyhan-960x640.jpg 960w" sizes="(max-width: 760px) 480px,
               (max-width:1200px) 960px" />
-          <!-- schema for seo -->
-          <h3 itemprop="name">Ecran Reyhan</h3>
-          <h4 itemprop="jobTitle">Co-Founder - Player</h4>
+          <h3>Ecran Reyhan</h3>
+          <h4>Co-Founder - Player</h4>
         </div><!--END team-card-->
         <!-- div to make cards -->
-        <div class="team-card" itemtype="https://schema.org/Person">
+        <div class="team-card">
           <!-- im src set for different displays -->
           <img src="images/adalbert_reyes-480x320.jpg" alt="Adalber Reyes Profile"
             srcset="images/adalbert_reyes-480x320.jpg 480w, images/adalbert_reyes-960x640.jpg 960w" sizes="(max-width: 760px) 480px,
               (max-width:1200px) 960px" />
-          <!-- schema for seo -->
-          <h3 itemprop="name">Adalber (Al) Reyes</h3>
-          <h4 itemprop="jobTitle">Web Dev - Grandpa</h4>
+          <h3>Adalber (Al) Reyes</h3>
+          <h4>Web Dev - Grandpa</h4>
         </div><!--END team-card-->
         <!-- div to make cards -->
-        <div class="team-card" itemtype="https://schema.org/Person">
+        <div class="team-card">
           <!-- im src set for different displays -->
           <img src="images/jersey_palmer-480x320jpg.jpg" alt="Jersey Palmer Profile"
-            srcset="images/jersey_palmer-480x320.jpg 480w, images/jersey_palmer-960x640.jpg 960w" sizes="(max-width: 760px) 480px,
+            srcset="images/jersey_palmer-480x320jpg.jpg 480w, images/jersey_palmer-960x640.jpg 960w" sizes="(max-width: 760px) 480px,
               (max-width:1200px) 960px" />
-          <!-- schema for seo -->
-          <h3 itemprop="name">Jersey Palmer</h3>
-          <h4 itemprop="jobTitle">Orders - Hockey Mom</h4>
+          <h3>Jersey Palmer</h3>
+          <h4>Orders - Hockey Mom</h4>
         </div><!--END team-card-->
       </div><!--END team-->
     </main>
@@ -122,41 +119,40 @@
   <div class="container">
     <footer id="footer">
       <!-- basic footer -->
-      <footer id="footer">
-        <!-- grid wrapper to be able to target children -->
-        <div class="footer-grid-wrapper">
-          <!--3 colum grid -->
-          <img class="logo-footer" src="images/icons/logo.svg" alt="Envro Logo" />
-          <div class="sm-footer">
-            <!-- social media icons and titles/text-->
-            <div class="sm-icon">
-              <img src="images/icons/iconsInstagram.png" alt="instagram icon" />
-              <h6 class="sm-titles">Instagram</h6>
-            </div>
-            <div class="sm-icon">
-              <img src="images/icons/iconsFacebook.png" alt="facebook icon" />
-              <h6 class="sm-titles">Facebook</h6>
-            </div>
-            <div class="sm-icon">
-              <img src="images/icons/iconsYoutube.png" alt="youtube icon" />
-              <h6 class="sm-titles">YouTube</h6>
-            </div>
-            <div class="sm-icon">
-              <img src="images/icons/iconsMap.png" alt="map icon" />
-              <h6 class="sm-titles">Instagram</h6>
-            </div>
-          </div><!--END sm-footer-->
-          <div class="contact-footer">
-            <!-- schema for SEO added -->
-            <ul itemscope itemtype="https://schema.org/LocalBusiness">
-              <li>Contact Us</li>
-              <li itemprop="telephone">123-456-7890</li>
-              <li itemprop="email">emailname@envro.com</li>
-            </ul>
-          </div><!--END contact-footer-->
-        </div><!--End footer-grid-wrapper-->
-        <span class="copywrite">Images are from Unsplash and Pixabay</span>
-      </footer>
+      <!-- grid wrapper to be able to target children -->
+      <div class="footer-grid-wrapper">
+        <!--3 colum grid -->
+        <img class="logo-footer" src="images/icons/logo.svg" alt="Envro Logo" />
+        <div class="sm-footer">
+          <!-- social media icons and titles/text-->
+          <div class="sm-icon">
+            <img src="images/icons/iconsInstagram.png" alt="instagram icon" />
+            <h6 class="sm-titles">Instagram</h6>
+          </div>
+          <div class="sm-icon">
+            <img src="images/icons/iconsFacebook.png" alt="facebook icon" />
+            <h6 class="sm-titles">Facebook</h6>
+          </div>
+          <div class="sm-icon">
+            <img src="images/icons/iconsYoutube.png" alt="youtube icon" />
+            <h6 class="sm-titles">YouTube</h6>
+          </div>
+          <div class="sm-icon">
+            <img src="images/icons/iconsMap.png" alt="map icon" />
+            <h6 class="sm-titles">Instagram</h6>
+          </div>
+        </div><!--END sm-footer-->
+        <div class="contact-footer">
+          <!-- schema for SEO added -->
+          <ul itemscope itemtype="https://schema.org/LocalBusiness">
+            <li>Contact Us</li>
+            <li itemprop="telephone">123-456-7890</li>
+            <li itemprop="email">emailname@envro.com</li>
+          </ul>
+        </div><!--END contact-footer-->
+      </div><!--End footer-grid-wrapper-->
+      <span class="copywrite">Images are from Unsplash and Pixabay</span>
+    </footer>
   </div><!--END Container-->
 </body>
 

@@ -529,7 +529,7 @@ footer .copywrite a{
 #shop .pro-container {
   margin: 0 auto;
 }
-/* Cursor to indicate for later java to add to cart, transition is for drop shadow */
+/* Cursor to indicate for later java to add to cart, transition is for drop shadow, modifications were made to original design for better images and accessibility  */
 #shop .pro {
   background-color: var(--xlight-blue-background);
   max-width: 50%;
@@ -549,35 +549,43 @@ footer .copywrite a{
   width: 100%;
   border-radius: 20px;
 }
+/* grid used to space items and designate space  */
 #shop .pro .des {
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  grid-template-rows: 1.5fr 0.5fr;
   text-align: start;
   padding: 10px;
+  justify-items: center;
+  align-items: center;
 }
 #shop .pro .des span {
   color: var(--green-main-color);
   font-size: 14px;
-  position: absolute;
-  right: 10px;
-  bottom: 50px;
+  grid-column:1 ;
+  grid-row: 2;
 }
 #shop .pro .des h5 {
   padding-top: 7px;
   font-size: 18px;
   font-weight: bold;
   color: var(--black-copy-color);
+  grid-column: 1;
+  grid-row: 1;
 }
 #shop .pro .des h4 {
-  padding-top: 7px;
+  padding: 0;
   font-size: 14px;
   font-weight: bold;
   color: var(--black-copy-color);
+  grid-column: 2;
+  grid-row: 1;
 }
 #shop .pro .des button {
-  position: absolute;
-  bottom: 15px;
-  right: 10px;
-  max-width: 100px;
+  padding: 0.5em;
   font-size: 12px;
+  grid-column: 2;
+  grid-row: 2;
 }
 /* Flex used to use flex grow to fill the space */
 .cart {
